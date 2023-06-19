@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function RightSidebar() {
   return (
     <div className="flex flex-col">
@@ -36,20 +38,50 @@ export default function RightSidebar() {
             Zennダッシュボード
         </a>
         <p>主に自分のメモ用にzennを使っています。</p>
-        <a className="text-2xl hover:text-indigo-300"
+
+        <div className="flex flex-row">
+          <Image 
+            src="/icons/github.svg"
+            className="p-1 mx-1"
+            alt="Icon"
+            width={32}
+            height={32}
+          />
+          <a className="text-2xl hover:text-indigo-300"
           href="https://github.com/ai-biz20-sasaki?tab=repositories">
             Github
-        </a>
+          </a>
+        </div>       
         <p>aibizsasakiのリポジトリ</p>
-        <a className="text-2xl hover:text-indigo-300"
-          href="https://twitter.com/ai_biz20_sasak">
-            twitter
-        </a>
+
+        <div className="flex flex-row">
+          <Image 
+            src="/icons/twitter.svg"
+            className="p-1 mx-1"
+            alt="Icon"
+            width={32}
+            height={32}
+          />
+          <a className="text-2xl hover:text-indigo-300"
+            href="https://twitter.com/ai_biz20_sasak">
+              twitter
+          </a>
+        </div>
         <p>twitter aibizsasaki</p>
-        <a className="text-2xl hover:text-indigo-300"
-          href="https://www.youtube.com/@aibizsasaki/featured">
-            YouTube
-        </a>
+
+        <div className="flex flex-row">
+          <Image 
+            src="/icons/youtube.svg"
+            className="p-1 mx-1"
+            alt="Icon"
+            width={32}
+            height={32}
+          />
+          <a className="text-2xl hover:text-indigo-300"
+            href="https://www.youtube.com/@aibizsasaki/featured">
+              YouTube
+          </a>
+        </div>
         <p>youtube aibizsasaki</p>
       </h1>
 
