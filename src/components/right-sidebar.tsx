@@ -33,9 +33,12 @@ export default function RightSidebar() {
         Get in Touch
       </h1>
       <h1 className="border-2 border-indigo-500/30 p-3 my-2">
-        <a className="text-2xl hover:text-indigo-300"
-          href="https://kabuboard2.0gravity0.com/">
-            Zennダッシュボード
+        <a 
+          className="text-2xl hover:text-indigo-300"
+          href="https://zenn.dev/aibiz20sasaki"
+          target="_blank" rel="noopener noreferrer"
+        >
+          Zennダッシュボード
         </a>
         <p>主に自分のメモ用にzennを使っています。</p>
 
@@ -47,8 +50,11 @@ export default function RightSidebar() {
             width={32}
             height={32}
           />
-          <a className="text-2xl hover:text-indigo-300"
-          href="https://github.com/ai-biz20-sasaki?tab=repositories">
+          <a
+            className="text-2xl hover:text-indigo-300"
+            href="https://github.com/ai-biz20-sasaki?tab=repositories"
+            target="_blank" rel="noopener noreferrer"
+          >
             Github
           </a>
         </div>       
@@ -62,9 +68,12 @@ export default function RightSidebar() {
             width={32}
             height={32}
           />
-          <a className="text-2xl hover:text-indigo-300"
-            href="https://twitter.com/ai_biz20_sasak">
-              twitter
+          <a
+            className="text-2xl hover:text-indigo-300"
+            href="https://twitter.com/ai_biz20_sasak"
+            target="_blank" rel="noopener noreferrer"
+          >
+            twitter
           </a>
         </div>
         <p>twitter aibizsasaki</p>
@@ -77,9 +86,12 @@ export default function RightSidebar() {
             width={32}
             height={32}
           />
-          <a className="text-2xl hover:text-indigo-300"
-            href="https://www.youtube.com/@aibizsasaki/featured">
-              YouTube
+          <a 
+            className="text-2xl hover:text-indigo-300"
+            href="https://www.youtube.com/@aibizsasaki/featured"
+            target="_blank" rel="noopener noreferrer"
+          >
+            YouTube
           </a>
         </div>
         <p>youtube aibizsasaki</p>
