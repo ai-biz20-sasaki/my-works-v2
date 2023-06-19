@@ -12,11 +12,11 @@ export default function Home() {
       <div className="flex flex-col justify-center p-2 m-2">
         <Header />
       </div>
-      <div className="flex flex-row p-2 m-1">
-        <div className="basis-1/2 p-2 m-1">
+      <div className="flex flex-row p-2 m-2">
+        <div className="basis-1/2 p-2 m-2">
           <LeftSidebar />
         </div>        
-        <div className="basis-1/2 p-2 m-1">
+        <div className="basis-1/2 p-2 m-2">
           <RightSidebar />
         </div>
       </div>
