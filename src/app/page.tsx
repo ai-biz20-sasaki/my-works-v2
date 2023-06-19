@@ -6,17 +6,16 @@ import RightSidebar from "@/components/right-sidebar"
 import Footer from "@/components/footer"
 
 export default function Home() {
- 
   return (
     <div>
       <div className="flex flex-col justify-center p-2 m-2">
         <Header />
       </div>
-      <div className="flex flex-row p-2 m-2">
-        <div className="basis-1/2 p-2 m-2">
+      <div className="flex flex-col sm:flex-row p-2 m-2">
+        <div className="w-full sm:w-1/2 p-2 m-2">
           <LeftSidebar />
         </div>        
-        <div className="basis-1/2 p-2 m-2">
+        <div className="w-full sm:w-1/2 p-2 m-2">
           <RightSidebar />
         </div>
       </div>
