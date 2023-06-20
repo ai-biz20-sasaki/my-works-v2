@@ -7,6 +7,15 @@ export default function LeftSidebar() {
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
         <a className="text-2xl hover:text-indigo-300"
+          href="https://whiteboard.aislaboratory.com/">
+            Whiteboard
+        </a>
+        <p>手書きの図を描画するWebサイト</p>
+        <p>Next.js/TypeScript/tailwind</p>
+      </h1>
+
+      <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
+        <a className="text-2xl hover:text-indigo-300"
           href="https://videolibrary.0gravity0.com/">
             Video Libraly
         </a>
