@@ -13,8 +13,8 @@ export default function LeftSidebar() {
         >
           Whiteboard
         </a>
-        <p>手書きの図を描画するWebサイト</p>
-        <p>Next.js/TypeScript/tailwind</p>
+        <p>ホワイトボード風に手書きで図を描画するWebサイト</p>
+        <p>Next.js/React/TypeScript/tailwind</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
