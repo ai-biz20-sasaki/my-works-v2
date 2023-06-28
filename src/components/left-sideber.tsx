@@ -8,6 +8,18 @@ export default function LeftSidebar() {
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
         <a 
           className="text-2xl hover:text-indigo-300"
+          href="https://njs-sample-company01.0gravity0.com/"
+          target="_blank" rel="noopener noreferrer"
+        >
+          サンプル会社01
+        </a>
+        <p>サンプル会社01 Webサイト</p>
+        <p>Next.js/React/TypeScript/tailwind</p>
+      </h1>
+
+      <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
+        <a 
+          className="text-2xl hover:text-indigo-300"
           href="https://whiteboard.aislaboratory.com/"
           target="_blank" rel="noopener noreferrer"
         >
