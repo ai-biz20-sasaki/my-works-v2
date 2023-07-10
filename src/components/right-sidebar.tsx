@@ -59,7 +59,8 @@ export default function RightSidebar() {
           </a>
         </div>       
         <p>aibizsasakiのリポジトリ</p>
-
+        
+        {/*
         <div className="flex flex-row">
           <Image 
             src="/icons/twitter.svg"
@@ -77,6 +78,7 @@ export default function RightSidebar() {
           </a>
         </div>
         <p>twitter aibizsasaki</p>
+        */}
 
         <div className="flex flex-row">
           <Image 
