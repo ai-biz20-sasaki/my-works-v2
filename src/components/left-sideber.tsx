@@ -14,7 +14,7 @@ export default function LeftSidebar() {
           サンプル会社01(WordPress版)
         </a>
         <p>WordPressで作ったサンプル会社01 Webサイト</p>
-        <p>WordPress/php</p>
+        <p>WordPress/php/Xserver</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
@@ -26,7 +26,7 @@ export default function LeftSidebar() {
           サンプル会社01(Next.js版)
         </a>
         <p>Next.jsで作ったサンプル会社01 Webサイト</p>
-        <p>Next.js/React/TypeScript/tailwind</p>
+        <p>Next.js/React/TypeScript/tailwind/AWS</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
@@ -38,7 +38,7 @@ export default function LeftSidebar() {
           Whiteboard
         </a>
         <p>ホワイトボード風に手書きで図を描画するWebサイト</p>
-        <p>Next.js/React/TypeScript/tailwind</p>
+        <p>Next.js/React/TypeScript/tailwind/AWS</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
@@ -50,7 +50,7 @@ export default function LeftSidebar() {
           Video Libraly
         </a>
         <p>Amazon Prime Videoをスクレイピングして表示するWebサイト</p>
-        <p>Laravel/PHP+MySQL</p>
+        <p>Laravel/PHP+MySQL/Xserver</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
@@ -62,7 +62,7 @@ export default function LeftSidebar() {
           Kabuboard
         </a>
         <p>Yahooファイナンスをスクレイピングし株価を表示などするWebサイト</p>
-        <p>Laravel/PHP+MySQL</p>
+        <p>Laravel/PHP+MySQL/Xserver</p>
       </h1>
 
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
@@ -75,6 +75,18 @@ export default function LeftSidebar() {
         </a>
         <p>履歴書の作成支援Webサイト</p>
         <p>vue.js/JavaScript+Flask/python+GCP(GAE+Datastore)</p>
+      </h1>
+
+      <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
+        <a 
+          className="text-2xl hover:text-indigo-300"
+          href="https://tiny-code.0gravity0.com/"
+          target="_blank" rel="noopener noreferrer"
+        >
+          TinyCode
+        </a>
+        <p>Vue.jsの実験サイト。アナログ時計、デジタル時計、トランプなど</p>
+        <p>Vue.js/JavaScript/Xserver</p>
       </h1>
 
     </div>    
