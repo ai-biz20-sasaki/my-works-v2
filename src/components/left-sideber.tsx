@@ -86,7 +86,7 @@ export default function LeftSidebar() {
           TinyCode
         </a>
         <p>Vue.jsの実験サイト。アナログ時計、デジタル時計、トランプなど</p>
-        <p>Vue.js/JavaScript/Xserver</p>
+        <p>Vue.js/JavaScript/Bootstrap/Xserver</p>
       </h1>
 
     </div>    
