@@ -8,6 +8,18 @@ export default function LeftSidebar() {
       <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
         <a 
           className="text-2xl hover:text-indigo-300"
+          href="https://ui-parts.0gravity0.com/"
+          target="_blank" rel="noopener noreferrer"
+        >
+          頻出UIパーツ
+        </a>
+        <p>Webサイトで頻出のUIパーツのサンプルサイト</p>
+        <p>HTML/CSS/JavaScript(Vanilla JS)</p>
+      </h1>
+
+      <h1 className="text-center border-2 border-indigo-500/30 p-3 my-2">
+        <a 
+          className="text-2xl hover:text-indigo-300"
           href="https://0gravity0.com/xs-wp-company01/"
           target="_blank" rel="noopener noreferrer"
         >
